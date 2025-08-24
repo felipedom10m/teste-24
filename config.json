@@ -1,0 +1,117 @@
+{
+  "mainProduct": {
+    "name": "teste-24",
+    "price": 1.1,
+    "memberAreaUrl": "https://felipedom10m.github.io/teste-24",
+    "selectedMemberAreaProduct": "teste-24",
+    "repositoryUrl": "https://github.com/felipedom10m/teste-24"
+  },
+  "general": {
+    "primaryColor": "#ffffff",
+    "secondaryColor": "#d11500",
+    "buttonColor": "#005714",
+    "backgroundColor": "#ffffff",
+    "buttonText": "Continuar"
+  },
+  "banner": {
+    "timerMinutes": 5,
+    "imageUrl": "/imagens/upload-1755869305076-384262738.png",
+    "timerText": "OFERTA COM TEMPO LIMITADO"
+  },
+  "upsells": [
+    {
+      "id": 1,
+      "title": "Pasta curso",
+      "price": "0.49",
+      "originalPrice": "0.69",
+      "description": "Acesso completo a Pasta curso",
+      "image": "../checkout/images/default-upsell.jpg",
+      "titleColor": "#8a6d3b",
+      "borderColor": "#faebcc",
+      "backgroundColor": "#fcf8e3",
+      "buttonText": "Quero Adicionar",
+      "active": true
+    },
+    {
+      "id": 2,
+      "title": "UPSELL 1",
+      "price": "0.28",
+      "originalPrice": "0.39",
+      "description": "Acesso completo a UPSELL 1",
+      "image": "../checkout/images/default-upsell.jpg",
+      "titleColor": "#8a6d3b",
+      "borderColor": "#faebcc",
+      "backgroundColor": "#fcf8e3",
+      "buttonText": "Quero Adicionar",
+      "active": true
+    },
+    {
+      "id": 3,
+      "title": "Bolo Chocolate",
+      "price": "1.00",
+      "originalPrice": "1.40",
+      "description": "Acesso completo a Bolo Chocolate",
+      "image": "../checkout/images/default-upsell.jpg",
+      "titleColor": "#8a6d3b",
+      "borderColor": "#faebcc",
+      "backgroundColor": "#fcf8e3",
+      "buttonText": "Quero Adicionar",
+      "active": true
+    },
+    {
+      "id": 4,
+      "title": "Pudim",
+      "price": "2.00",
+      "originalPrice": "2.80",
+      "description": "Acesso completo a Pudim",
+      "image": "../checkout/images/default-upsell.jpg",
+      "titleColor": "#8a6d3b",
+      "borderColor": "#faebcc",
+      "backgroundColor": "#fcf8e3",
+      "buttonText": "Quero Adicionar",
+      "active": true
+    }
+  ],
+  "payment": {
+    "pixEnabled": true,
+    "cardEnabled": true,
+    "gateway": "appmax",
+    "apiKey": "",
+    "apiSecret": "",
+    "maxInstallments": "6",
+    "offersAppmaxToken": "FB52DEA6-D607B576-382A8506-6976ABC2"
+  },
+  "obrigado": {
+    "title": "Obrigado pela sua compra!",
+    "message": "Seu pagamento foi aprovado com sucesso! Em breve você receberá um email com os dados de acesso ao conteúdo....",
+    "bgColor": "#f8f9fa",
+    "titleColor": "#28a745",
+    "showAccess": true,
+    "accessTitle": "🔐 Seus dados de acesso:",
+    "memberUrl": "",
+    "extraText": "Verifique sua caixa de entrada (e spam) para mais detalhes. Em caso de dúvidas, entre em contato conosco.",
+    "whatsapp": ""
+  },
+  "recovery": {
+    "enabled": true,
+    "discountsEnabled": false,
+    "timing": {
+      "firstDelay": 1,
+      "secondDelay": 1,
+      "thirdDelay": 1
+    },
+    "discounts": {
+      "first": 0,
+      "second": 10,
+      "third": 20
+    },
+    "messages": {
+      "msg1Subject": "Não esqueça do seu pedido! 🛒",
+      "msg1Text": "Olá {{nome}}! \n\nNotamos que você estava interessado em {{produto}} mas não finalizou sua compra.\n\nFinalize agora e garante seu acesso: {{link}}\n\nQualquer dúvida, é só responder esta mensagem! 😊",
+      "msg2Subject": "Oferta especial só para você! 🎁",
+      "msg2Text": "{{nome}}, que tal aproveitarmos uma oferta especial? 🔥\n\n{{produto}} com {{desconto}}% de desconto!\nDe {{valor_original}} por apenas {{valor_desconto}}\n\nAproveite esta oportunidade: {{link}}\n\nOferta válida por tempo limitado! ⏰",
+      "msg3Subject": "Última chance - Maior desconto! 🚨",
+      "msg3Text": "{{nome}}, esta é sua ÚLTIMA CHANCE! 🚨\n\n{{produto}} com {{desconto}}% de desconto - o maior que oferecemos!\nDe {{valor_original}} por apenas {{valor_desconto}}\n\n🔥 OFERTA EXPIRA EM POUCAS HORAS 🔥\n\nGarante já: {{link}}\n\nDepois disso, não conseguirei te ajudar mais... 😢"
+    }
+  }
+}
